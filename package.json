@@ -1,0 +1,15 @@
+{
+  "name": "playwright-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "playwright on browserstack",
+  "scripts": {
+    "playwright-test": "playwright test integ-test --config=./playwright/playwright.ci.config.ts"
+  },
+  "author": "",
+  "devDependencies": {
+    "@playwright/test": "1.29.2",
+    "playwright": "1.29.2",
+    "typescript": "^4.9.4"
+  }
+}

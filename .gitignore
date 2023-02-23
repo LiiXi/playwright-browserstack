@@ -1,0 +1,58 @@
+# generated code
+!/test/benchmarking/results/README.md
+**/.build/
+**/.dynamodb/
+**/base-files/generated/
+**/idl/bin/
+**/idl/obj/
+**/test/data/generated/
+**/test/generated/
+.cache/
+.husky/
+.run/
+/test/benchmarking/results/*
+debug.log
+dist
+hooks
+junit.xml
+lerna-debug.log
+lfs
+public/*
+reports/*
+subscriberStorageState.json
+test-results
+
+# Local yarn cache
+vendor
+
+# Dependencies
+node_modules
+
+# Ide not shareable
+.idea
+.vscode
+.vs
+*.sln
+*.njsproj
+*.njsproj.user
+*.iml
+bin/*.dll
+obj
+
+# OS Metadata / User Configuration
+.DS_Store
+
+# Debug logs
+npm-debug.log*
+ac-core-console-proxy.log
+.\\NONEXIST
+.\\temppath.tst
+c:\\classDump.txt
+yarn-error.log
+cleanup.log
+
+# env files (such as the one in fluid ssm)
+.env
+
+# Lint cache
+.eslintcache
